@@ -19,6 +19,8 @@ header {
 nav ul li {
   list-style: none;
   display: inline;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 
