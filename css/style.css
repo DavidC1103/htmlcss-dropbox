@@ -143,17 +143,20 @@ h2 {
 
 /*COLONNE*/
 
+/*debug colonna*/
+.standard {
+  margin: 0 62px;
+}
+
+
+/*--------------------*/
 .col {
-  height: 600px;
+  height: 1000px;
   width: 322px;
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin-top: 40px;
-}
 
-
-.standard {
-  margin: 0 62px;
 }
 
 .name-col {
@@ -166,4 +169,68 @@ h2 {
 
 .content-col {
   padding: 40px 30px;
+  font-size: 14px;
+}
+
+.content-col .price {
+  margin-top: 11px;
+  margin-bottom: 5px;
+}
+
+.content-col div {
+  margin: 20px 0;
+}
+
+
+.content-col .date-col {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+.content-col hr {
+  width: 20%;
+  margin-top: 30px;
+}
+
+
+/*LINK COLONNE*/
+.content-col .test {
+  background-color: #0665FF;
+  padding: 8px 20px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.test a {
+  text-decoration: none;
+  color: white;
+}
+
+.content-col .buy-now {
+  color: #0665FF;
+}
+
+
+/*LISTA COLONNE*/
+
+.content-col ul {
+  margin-top: 20px;
+}
+
+.content-col ul li:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content-col ul li {
+  list-style: none;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+.content-col ul li i {
+  color: #0665FF;
+  font-weight: 800;
 }
