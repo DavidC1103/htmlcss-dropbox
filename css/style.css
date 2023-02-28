@@ -15,7 +15,6 @@
 }
 
 
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,6 +27,8 @@ header {
   z-index: 99999;
   font-weight: 600;
 }
+
+/*---------------------------------*/
 
 /*TITOLI*/
 h1 {
@@ -45,6 +46,7 @@ h3 {
   font-size: 25px;
 }
 
+/*---------------------------------*/
 
 
 /*MENU HEADER GENERAL*/
@@ -65,17 +67,21 @@ h3 {
   font-weight: 500;
 }
 
+/*---------------------------------*/
+
 /*MENU SINISTRA*/
 .left-menu li {
   padding-right: 50px;
 }
 
+/*---------------------------------*/
 
 /*MENU DESTRA*/
 .right-menu li {
   padding-left: 50px;
 }
 
+/*---------------------------------*/
 
 
 
@@ -106,6 +112,7 @@ h3 {
   padding-top: 40px;
 }
 
+/*---------------------------------*/
 /*LINK MENU, JUMBO*/
 .link {
   text-decoration: none;
@@ -119,6 +126,7 @@ h3 {
   padding-bottom: 20px;
 }
 
+/*---------------------------------*/
 
 /*MAIN*/
 
@@ -128,6 +136,7 @@ h3 {
   margin: 220px auto;
 }
 
+/*---------------------------------*/
 
 /*FATTURAZIONE*/
 .billing span {
@@ -143,6 +152,7 @@ h3 {
   color: #0665FF;
 }
 
+/*---------------------------------*/
 
 
 /*COLONNE*/
@@ -151,7 +161,6 @@ h3 {
 .standard {
   margin: 0 62px;
 }
-
 
 /*--------------------*/
 .col {
@@ -198,6 +207,7 @@ h3 {
   margin-top: 30px;
 }
 
+/*---------------------------------*/
 
 /*LINK COLONNE*/
 .test {
@@ -216,6 +226,7 @@ h3 {
   color: #0665FF;
 }
 
+/*---------------------------------*/
 
 /*LISTA COLONNE*/
 
@@ -238,6 +249,8 @@ h3 {
   color: #0665FF;
   font-weight: 800;
 }
+
+/*---------------------------------*/
 
 /*COLONNA ORIZONTALE*/
 .or-col {
@@ -278,6 +291,8 @@ h3 {
   margin-top: 60px;
 }
 
+/*---------------------------------*/
+
 
 /*PARTNER*/
 
@@ -287,6 +302,7 @@ h3 {
   object-fit: cover;
   height: 500px;
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .text-partner {
@@ -313,5 +329,35 @@ h3 {
 .text-partner a:hover {
   background-color: #0665FF;
   color: white;
+}
 
+/*----------------------------------*/
+
+/*INFO DROPBOX*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  margin-top: 50px;
+  line-height: 1.4rem;
+
+}
+
+.info-dropbox {
+  width: calc(100% / 3);
+  text-align: left;
+}
+
+.info-dropbox img {
+  width: 100%;
+}
+
+.p-image {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.info-dropbox p {
+  margin-top: 20px;
 }
