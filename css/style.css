@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,24 +29,26 @@ header {
   font-weight: 600;
 }
 
+/*TITOLI*/
 h1 {
   font-size: 81px;
   font-weight: 600;
   padding-top: 70px;
 }
 
-.container {
-  width: 90%;
-  max-width: 1400px;
-  margin: 0 auto;
-
+h2 {
+  font-size: 35px;
+  font-weight: 600;
 }
+
+
+
 
 /*LINK MENU, JUMBO*/
 .link {
   text-decoration: none;
   color: white;
-  background-color: rgb(56, 56, 247);
+  background-color: #0665FF;
   padding: 8px 20px;
 }
 
@@ -44,8 +58,6 @@ h1 {
 }
 
 /*MENU HEADER GENERAL*/
-
-
 .menu-top {
   display: flex;
   justify-content: space-between;
@@ -78,7 +90,6 @@ h1 {
 
 
 /*JUMBOTRON*/
-
 .jumbotron {
   background-color: #B4D0E7;
   height: 800px;
@@ -86,24 +97,14 @@ h1 {
   position: relative;
 }
 
-
-
-.jumbo-img {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .jumbo-img img {
   width: 50%;
   position: absolute;
   right: 318px;
   bottom: -95px;
-  display: inline-block;
-
 }
 
 .jumbo-text {
-  height: 40%;
   width: 27%;
   line-height: 1.4rem;
   padding-top: 23px;
@@ -112,4 +113,57 @@ h1 {
 .jumbotron i {
   font-size: 38px;
   padding-top: 40px;
+}
+
+
+/*MAIN*/
+
+.main-container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 220px auto;
+}
+
+
+/*FATTURAZIONE*/
+.billing span {
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.billing i {
+  font-size: 18px;
+}
+
+.fa-solid.fa-circle-dot {
+  color: #0665FF;
+}
+
+
+
+/*COLONNE*/
+
+.col {
+  height: 600px;
+  width: 322px;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+
+
+.standard {
+  margin: 0 62px;
+}
+
+.name-col {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.content-col {
+  padding: 40px 30px;
 }
