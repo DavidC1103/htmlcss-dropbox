@@ -46,6 +46,10 @@ h3 {
   font-size: 25px;
 }
 
+.h3-line-height {
+  line-height: 2rem;
+}
+
 /*---------------------------------*/
 
 
@@ -132,7 +136,7 @@ h3 {
 
 .main-container {
   width: 80%;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 220px auto;
 }
 
@@ -165,7 +169,7 @@ h3 {
 /*--------------------*/
 .col {
   height: 1000px;
-  width: 322px;
+  width: 355px;
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin-top: 40px;
@@ -338,7 +342,6 @@ h3 {
 .row {
   display: flex;
   flex-wrap: wrap;
-  height: 800px;
   margin-top: 50px;
   line-height: 1.4rem;
 
@@ -346,18 +349,24 @@ h3 {
 
 .info-dropbox {
   width: calc(100% / 3);
-  text-align: left;
+  text-align: left
 }
 
 .info-dropbox img {
   width: 100%;
 }
 
-.p-image {
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
 .info-dropbox p {
   margin-top: 20px;
+  margin-bottom: 70px;
+  font-size: 18px;
+}
+
+.p-right {
+  padding-right: 60px;
+}
+
+.p-left {
+  padding-left: 54px;
 }
