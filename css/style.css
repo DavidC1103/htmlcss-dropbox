@@ -41,7 +41,9 @@ h2 {
   font-weight: 600;
 }
 
-
+h3 {
+  font-size: 25px;
+}
 
 
 /*LINK MENU, JUMBO*/
@@ -196,7 +198,7 @@ h2 {
 
 
 /*LINK COLONNE*/
-.content-col .test {
+.test {
   background-color: #0665FF;
   padding: 8px 20px;
   text-align: center;
@@ -233,4 +235,43 @@ h2 {
 .content-col ul li i {
   color: #0665FF;
   font-weight: 800;
+}
+
+/*COLONNA ORIZONTALE*/
+.or-col {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 230px;
+  margin-top: 50px;
+}
+
+.or-col .or-col-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 30px 0;
+}
+
+.or-col div a {
+  padding: 8px 55px;
+  color: white;
+  text-decoration: none;
+}
+
+.link-or-col {
+  margin: 0;
+  background-color: #0665FF;
+  padding: 8px 20px;
+  text-align: center;
+}
+
+.or-col div:nth-child(3) {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.last-text-or-col {
+  margin-left: 30px;
+  margin-top: 60px;
 }
