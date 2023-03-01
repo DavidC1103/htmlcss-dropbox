@@ -30,6 +30,7 @@ header {
   width: 100%;
   z-index: 99999;
   font-weight: 600;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 /*---------------------------------*/
@@ -73,20 +74,26 @@ h3 {
   cursor: pointer;
   vertical-align: middle;
   font-weight: 500;
+  height: 100%;
 }
+
+.menu-top nav ul li:hover {
+  border-bottom: 1px solid black;
+}
+
 
 /*---------------------------------*/
 
 /*MENU SINISTRA*/
 .left-menu li {
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 /*---------------------------------*/
 
 /*MENU DESTRA*/
 .right-menu li {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 /*---------------------------------*/
@@ -609,33 +616,15 @@ h3 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*FOOTER*/
 
 footer {
   color: white;
-}
-
-.bc-footer {
   background-color: black;
 }
 
 .flex-footer {
   display: flex;
-
 }
 
 footer ul {
@@ -647,13 +636,13 @@ footer ul {
 footer ul li:first-child {
   font-weight: bold;
   font-size: 18px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 footer ul li {
   list-style: none;
   line-height: 1.5rem;
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 15px;
 }
 
