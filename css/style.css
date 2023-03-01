@@ -588,6 +588,7 @@ h3 {
 .faq {
   margin-top: 130px;
   margin-bottom: 130px;
+  position: relative;
 }
 
 .faq h2 {
@@ -599,4 +600,77 @@ h3 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 40px;
   padding-top: 40px;
+}
+
+.faq i {
+  position: absolute;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+  color: white;
+}
+
+.bc-footer {
+  background-color: black;
+}
+
+.flex-footer {
+  display: flex;
+
+}
+
+footer ul {
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+}
+
+footer ul li:first-child {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+footer ul li {
+  list-style: none;
+  line-height: 1.5rem;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+footer hr {
+  width: 7%;
+  margin-left: 150px;
+  margin-bottom: 60px;
+}
+
+footer .language {
+  margin-left: 150px;
+  color: gray;
+  padding-bottom: 50px;
 }
