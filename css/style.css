@@ -8,6 +8,10 @@
   padding-bottom: 50px;
 }
 
+.mt-250 {
+  margin-top: 250px;
+}
+
 .container {
   width: 90%;
   max-width: 1400px;
@@ -99,7 +103,7 @@ h3 {
 }
 
 .jumbo-img img {
-  width: 50%;
+  max-width: 50%;
   position: absolute;
   right: 318px;
   bottom: -95px;
@@ -125,6 +129,11 @@ h3 {
   padding: 8px 20px;
 }
 
+.link:hover {
+  background-color: #2f7af1;
+
+}
+
 .margin-link-jumbo {
   padding-top: 35px;
   padding-bottom: 20px;
@@ -137,7 +146,8 @@ h3 {
 .main-container {
   width: 80%;
   max-width: 1200px;
-  margin: 220px auto;
+  margin: 0 auto;
+
 }
 
 /*---------------------------------*/
@@ -215,10 +225,10 @@ h3 {
 
 /*LINK COLONNE*/
 .test {
-  background-color: #0665FF;
-  padding: 8px 20px;
   text-align: center;
   margin: 40px 0;
+  background-color: #0665FF;
+  padding: 8px 20px;
 }
 
 .test a {
@@ -228,6 +238,10 @@ h3 {
 
 .content-col .buy-now {
   color: #0665FF;
+}
+
+.test:hover {
+  background-color: #2f7af1;
 }
 
 /*---------------------------------*/
@@ -282,6 +296,10 @@ h3 {
   background-color: #0665FF;
   padding: 8px 20px;
   text-align: center;
+}
+
+.link-or-col:hover {
+  background-color: #2f7af1;
 }
 
 .or-col div:nth-child(3) {
@@ -363,6 +381,10 @@ h3 {
   font-size: 18px;
 }
 
+.info-dropbox a {
+  color: black;
+}
+
 .p-right {
   padding-right: 60px;
 }
@@ -370,3 +392,193 @@ h3 {
 .p-left {
   padding-left: 54px;
 }
+
+/*--------------------------*/
+
+
+/* GENERAL TEAM*/
+.title-team h2 {
+  width: 40%;
+  margin-top: 150px;
+  margin-bottom: 40px;
+
+}
+
+.title-team a {
+  color: #0665FF;
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+
+.team {
+  height: 580px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.team-box {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team .info-team {
+  width: 40%;
+  padding: 50px 70px;
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+
+.team .info-team hr {
+  color: rgba(0, 0, 0, 0.2);
+  width: 10%;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.team .info-team p {
+  line-height: 1.6rem;
+  margin-bottom: 80px;
+}
+
+/*------------------------------------*/
+
+
+
+/*GENERALM IMAGE TEAM*/
+.team-box img {
+  width: 50%;
+  object-fit: contain;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(69deg) brightness(103%) contrast(102%);
+}
+
+.team .info-team img {
+  width: 25%;
+}
+
+/*--------------------------------*/
+
+/*COLOR TEAM*/
+
+.pea {
+  background-color: #A2D39B;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.maroon {
+  width: 50%;
+  height: 50%;
+  background-color: #61082B;
+  display: flex;
+  justify-content: center;
+}
+
+.azure {
+  background-color: #0093CE;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.red {
+  background-color: #FF1C1C;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.soft-azure {
+  background-color: #B4D0E7;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.yellow {
+  background-color: #FFD830;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.blue {
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+/*------------------------------*/
+
+
+/* COMMAN ACTIVE TEAM*/
+.pea:active {
+  border: 15px solid #D0E9CD;
+}
+
+.maroon:active {
+  border: 15px solid #830d3c;
+}
+
+.red:active {
+  border: 15px solid #e66060;
+}
+
+.azure:active {
+  border: 15px solid #3abef1;
+}
+
+.soft-azure:active {
+  border: 15px solid blue;
+}
+
+.blue:active {
+  border: 15px solid #B4D0E7;
+}
+
+.yellow:active {
+  border: 15px solid yellow;
+}
+
+/*----------------------------------------*/
+
+
+/*PROVA GRATUITA PER AZIENDE*/
+.azienda {
+  background-color: #B4D0E7;
+  height: 300px;
+}
+
+.free-test {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.free-test h2 {
+  width: 40%;
+  color: #61082B;
+}
+
+.free-test a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 8px 70px;
+}
+
+.free-test a:hover {
+  background-color: #F5F5F5;
+}
+
+/*-----------------------------------*/
